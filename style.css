@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(114, 110, 110);
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.header h1{
+    font-family: 'Arial', sans-serif;
+    color: #4000ff;
+    font-size: 48px;
+}
+.header p{
+    color: rgb(183, 181, 181);
+}
+.dash{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.dash img{
+    margin: 20px;
+}
+@keyframes blink{
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#res{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight:500;
+    color: #8b75f9;
+    animation: blink 1s linear 1;
+}
+.title{
+    background-color: #4000ff;
+    color: white;
+    font-size: 20px;
+    font-weight: 650;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+.weapon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: rgb(114, 110, 110);
+}
+.weapon button{
+    font-size: 30px;
+    padding: 22px;
+    border:rgb(114, 110, 110);
+    color: white;
+    border-radius: 360px;
+    background-color: #4000ff;  
+    margin: 20px;
+}
